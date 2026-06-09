@@ -3,7 +3,7 @@ import { FiPhone } from "react-icons/fi";
 
 function Navbar() {
   const handleCall = () => {
-    window.location.href = "tel:+911234567890";
+    window.location.href = "tel:+918849978818";
   };
   return (
     <header className="navbar">

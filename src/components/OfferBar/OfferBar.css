@@ -1,0 +1,28 @@
+.offer-bar {
+  height: 28px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(
+    90deg,
+    #d8f2d3 0%,
+    #dff3ff 100%
+  );
+
+  border-top: 1px solid #e5e5e5;
+}
+
+.offer-bar p {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #1f1f1f;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #8b8b8b;
+  margin: 0 4px;
+}
