@@ -45,7 +45,7 @@
 .image-box p {
   text-align: center;
   font-size: 14px;
-  color: #2d2d2d;
+  color: #2d2d2d;   
   margin: 8px 0;
   font-weight: 500;
 }
@@ -55,6 +55,7 @@
 }
 
 .info-row {
+  font-family: 'Instrument Sans', sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
