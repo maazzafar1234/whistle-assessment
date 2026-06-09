@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "beforeImage": "/images/Gaps Before.png",
+    "afterImage": "/images/Gaps After.png",
+    "concern": "Gaps",
+    "duration": "8 months"
+  },
+  {
+    "id": 2,
+    "beforeImage": "/images/Crooked Teeth - Before.png",
+    "afterImage": "/images/Crooked Teeth - After.png",
+    "concern": "Crooked Teeth",
+    "duration": "8 months"
+  },
+  {
+    "id": 3,
+    "beforeImage": "/images/Overbite Before.png",
+    "afterImage": "/images/Overbite After.png",
+    "concern": "Overbite",
+    "duration": "8 months"
+  },
+  {
+    "id": 4,
+    "beforeImage": "/images/Protruding Teeth before.png",
+    "afterImage": "/images/Protruding Teeth After.png",
+    "concern": "Protruding Teeth",
+    "duration": "8 months"
+  }
+]
