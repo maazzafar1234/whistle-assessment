@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "feature": "Easy to complex cases",
+    "whistle": "Yes, mild to complex",
+    "other": "No, only mild to moderate",
+    "details": "Whistle handles both simple and complex alignment cases."
+  },
+  {
+    "id": 2,
+    "feature": "Clear-cut Pricing",
+    "whistle": true,
+    "other": false,
+    "details": "No hidden charges."
+  }
+]

@@ -1,0 +1,160 @@
+.comparison-section {
+  padding: 80px 20px;
+}
+
+.comparison-title {
+  font-size: 54px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #181C1C;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.comparison-card {
+  max-width: 1000px;
+  margin: 0 auto;
+  border: 1px solid #d9d9d9;
+  border-radius: 18px;
+  overflow: hidden;
+  background: white;
+}
+
+.comparison-header {
+  display: grid;
+  grid-template-columns: 2.8fr 0.7fr 0.7fr;
+}
+
+.feature-col,
+.other-col {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.whistle-col {
+  background: #edf5fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.whistle-col img {
+  width: 92px;
+  height: auto;
+}
+
+.comparison-row {
+  display: grid;
+  grid-template-columns: 2.8fr 0.7fr 0.7fr;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.comparison-row:hover {
+  background: #fafafa;
+}
+
+.feature-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 16px;
+  font-weight: 500;
+  color: #000;
+  font-size: 16px;
+}
+
+.whistle-value,
+.other-value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 26px 16px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.whistle-value {
+  background: #edf5fb;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #222;
+  font-size: 18px;
+}
+
+.check,
+.cross {
+  width: 24px;
+  height: 24px;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+
+  margin: 0 auto;
+}
+
+.check {
+  background: #08a66c;
+}
+
+.cross {
+  background: #ea2f3d;
+}
+
+.row-details {
+  padding: 20px;
+  background: #f8fafc;
+  color: #555;
+  line-height: 1.6;
+  border-top: 1px solid #eee;
+}
+
+.loading,
+.error {
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .comparison-title {
+    font-size: 34px;
+  }
+
+  .comparison-card {
+    border-radius: 12px;
+  }
+
+  .comparison-header,
+  .comparison-row {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-col,
+  .whistle-col,
+  .other-col,
+  .feature-name,
+  .whistle-value,
+  .other-value {
+    text-align: center;
+  }
+
+  .feature-name {
+    justify-content: center;
+    gap: 12px;
+  }
+}
