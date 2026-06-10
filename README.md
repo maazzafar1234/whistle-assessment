@@ -169,25 +169,26 @@ Using local data allowed the implementation to remain faithful to the Figma desi
 ## Project Structure
 
 ```text
+
 src
 │
 ├── components
 │   ├── Navbar
 │   ├── OfferBar
 │   ├── Hero
-│   ├── LeadForm
 │   ├── ResultsSection
 │   ├── ComparisonTable
-│   ├── FAQ
-│   └── Footer
+│   └── FAQ
 │
 ├── data
-│   └── results.json
+│   ├── results.json
+│   └── faqData.json
 │
 ├── services
 │   └── api.js
 │
 ├── App.jsx
+│
 └── main.jsx
 ```
 
